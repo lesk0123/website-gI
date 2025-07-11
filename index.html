@@ -1,213 +1,197 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2575.5">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  <meta charset="UTF-8">
+  <title>INTU Lock — Seamless Access, Made in Europe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="INTU Lock – pametna ključavnica in platforma za brezskrben, varen in intuitiven digitalni dostop.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --color-bg: #f6f8fa;
+      --color-primary: #2942ff;
+      --color-accent: #1ec9a7;
+      --color-dark: #1b2135;
+      --color-grey: #61697a;
+      --radius: 16px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--color-bg);
+      font-family: 'Inter', Arial, sans-serif;
+      color: var(--color-dark);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      background: white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      padding: 1.5rem 0;
+      text-align: center;
+    }
+    .logo {
+      font-size: 2.2rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      color: var(--color-primary);
+    }
+    nav {
+      margin-top: 0.5rem;
+    }
+    nav a {
+      color: var(--color-grey);
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+    nav a:hover {
+      color: var(--color-primary);
+    }
+    .hero {
+      flex: 1 0 auto;
+      max-width: 650px;
+      margin: 3rem auto 2rem auto;
+      background: white;
+      border-radius: var(--radius);
+      padding: 2.5rem 2rem;
+      box-shadow: 0 8px 32px rgba(41,66,255,0.07);
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: var(--color-primary);
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.25rem;
+      color: var(--color-grey);
+      margin-bottom: 2.2rem;
+      line-height: 1.7;
+    }
+    .cta-btn {
+      background: var(--color-accent);
+      color: white;
+      font-weight: 600;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: var(--radius);
+      padding: 0.9rem 2.5rem;
+      cursor: pointer;
+      transition: background 0.2s;
+      box-shadow: 0 2px 10px rgba(30,201,167,0.1);
+    }
+    .cta-btn:hover {
+      background: #11b18f;
+    }
+    .features {
+      max-width: 900px;
+      margin: 2.5rem auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      justify-content: center;
+    }
+    .feature {
+      background: white;
+      border-radius: var(--radius);
+      box-shadow: 0 2px 12px rgba(27,33,53,0.07);
+      flex: 1 1 250px;
+      min-width: 250px;
+      max-width: 270px;
+      padding: 1.8rem 1.2rem;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+    .feature-icon {
+      font-size: 2rem;
+      color: var(--color-primary);
+    }
+    .feature-title {
+      font-weight: 700;
+      color: var(--color-dark);
+      margin-top: 0.2rem;
+      margin-bottom: 0.4rem;
+    }
+    .feature-desc {
+      color: var(--color-grey);
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+    footer {
+      text-align: center;
+      color: var(--color-grey);
+      padding: 1.5rem 0 1rem 0;
+      font-size: 1rem;
+    }
+    @media (max-width: 900px) {
+      .features { flex-direction: column; align-items: center; }
+      .feature { max-width: 95%; }
+    }
+    @media (max-width: 600px) {
+      .hero { padding: 1.5rem 0.5rem; }
+      .features { padding: 0 0.5rem; }
+    }
   </style>
 </head>
 <body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html lang="en"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta charset="UTF-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;title&gt;INTU Lock — Seamless Access, Made in Europe&lt;/title&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta name="description" content="INTU Lock – pametna ključavnica in platforma za brezskrben, varen in intuitiven digitalni dostop."&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&amp;display=swap" rel="stylesheet"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;style&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>:root {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>--color-bg: #f6f8fa;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>--color-primary: #2942ff;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>--color-accent: #1ec9a7;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>--color-dark: #1b2135;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>--color-grey: #61697a;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>--radius: 16px;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>* { box-sizing: border-box; margin: 0; padding: 0; }</p>
-<p class="p1"><span class="Apple-converted-space">    </span>body {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>background: var(--color-bg);</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'Inter', Arial, sans-serif;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>color: var(--color-dark);</p>
-<p class="p1"><span class="Apple-converted-space">      </span>min-height: 100vh;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>display: flex;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>flex-direction: column;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>header {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>background: white;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>box-shadow: 0 2px 8px rgba(0,0,0,0.05);</p>
-<p class="p1"><span class="Apple-converted-space">      </span>padding: 1.5rem 0;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.logo {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-size: 2.2rem;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 700;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>letter-spacing: 1px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>color: var(--color-primary);</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>nav {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin-top: 0.5rem;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>nav a {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>color: var(--color-grey);</p>
-<p class="p1"><span class="Apple-converted-space">      </span>text-decoration: none;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin: 0 1rem;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 500;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>transition: color 0.2s;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>nav a:hover {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>color: var(--color-primary);</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.hero {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>flex: 1 0 auto;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>max-width: 650px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin: 3rem auto 2rem auto;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>background: white;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>border-radius: var(--radius);</p>
-<p class="p1"><span class="Apple-converted-space">      </span>padding: 2.5rem 2rem;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>box-shadow: 0 8px 32px rgba(41,66,255,0.07);</p>
-<p class="p1"><span class="Apple-converted-space">      </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.hero h1 {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-size: 2.4rem;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 700;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>color: var(--color-primary);</p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 1rem;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.hero p {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-size: 1.25rem;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>color: var(--color-grey);</p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 2.2rem;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>line-height: 1.7;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.cta-btn {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>background: var(--color-accent);</p>
-<p class="p1"><span class="Apple-converted-space">      </span>color: white;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 600;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-size: 1.2rem;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>border: none;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>border-radius: var(--radius);</p>
-<p class="p1"><span class="Apple-converted-space">      </span>padding: 0.9rem 2.5rem;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>cursor: pointer;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>transition: background 0.2s;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>box-shadow: 0 2px 10px rgba(30,201,167,0.1);</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.cta-btn:hover {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>background: #11b18f;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.features {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>max-width: 900px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin: 2.5rem auto;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>display: flex;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>flex-wrap: wrap;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>gap: 1.5rem;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>justify-content: center;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.feature {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>background: white;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>border-radius: var(--radius);</p>
-<p class="p1"><span class="Apple-converted-space">      </span>box-shadow: 0 2px 12px rgba(27,33,53,0.07);</p>
-<p class="p1"><span class="Apple-converted-space">      </span>flex: 1 1 250px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>min-width: 250px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>max-width: 270px;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>padding: 1.8rem 1.2rem;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>text-align: left;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>display: flex;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>flex-direction: column;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>gap: 0.6rem;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.feature-icon {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-size: 2rem;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>color: var(--color-primary);</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.feature-title {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-weight: 700;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>color: var(--color-dark);</p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin-top: 0.2rem;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 0.4rem;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>.feature-desc {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>color: var(--color-grey);</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-size: 1rem;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>line-height: 1.5;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>footer {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>color: var(--color-grey);</p>
-<p class="p1"><span class="Apple-converted-space">      </span>padding: 1.5rem 0 1rem 0;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>font-size: 1rem;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>@media (max-width: 900px) {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>.features { flex-direction: column; align-items: center; }</p>
-<p class="p1"><span class="Apple-converted-space">      </span>.feature { max-width: 95%; }</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>@media (max-width: 600px) {</p>
-<p class="p1"><span class="Apple-converted-space">      </span>.hero { padding: 1.5rem 0.5rem; }</p>
-<p class="p1"><span class="Apple-converted-space">      </span>.features { padding: 0 0.5rem; }</p>
-<p class="p1"><span class="Apple-converted-space">    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/style&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;header&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="logo"&gt;INTU Lock&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;nav&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;a href="#about"&gt;O nas&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;a href="#features"&gt;Funkcije&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;a href="#contact"&gt;Kontakt&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/nav&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/header&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;main&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;section class="hero" id="about"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;h1&gt;Seamless Access. European Security.&lt;br&gt;INTU Lock&lt;/h1&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>Pametna ključavnica in platforma za popolnoma intuitiven, varen ter brezskrben digitalni dostop.</p>
-<p class="p1"><span class="Apple-converted-space">        </span>Razvito v Evropi, z upoštevanjem najstrožjih standardov zasebnosti. Pripravite se na prihodnost brez fizičnih ključev!</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;a class="cta-btn" href="#contact"&gt;Pišite nam&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;section class="features" id="features"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="feature"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="feature-icon"&gt;🔒&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="feature-title"&gt;Vrhunska varnost&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="feature-desc"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>Zgrajeno na evropskih standardih zasebnosti in digitalne identitete (EUDI). Dostop z mobilno denarnico, kartico ali aplikacijo – brez kompromisov.</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="feature"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="feature-icon"&gt;📱&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="feature-title"&gt;Brezhibna uporabniška izkušnja&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="feature-desc"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>Odklepajte s telefonom, NFC kartico ali “cloud” dostopom – za dom, pisarno ali skupne prostore. INTU Lock deluje vedno in povsod.</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="feature"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="feature-icon"&gt;⚡️&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="feature-title"&gt;Preprosta montaža&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="feature-desc"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>Hitra vgradnja brez spreminjanja obstoječih vrat ali ključavnic. Prva rešitev, prilagojena evropskim objektom.</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="feature"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="feature-icon"&gt;🛡️&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="feature-title"&gt;Evropska tehnologija&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="feature-desc"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>Razvito, testirano in podprto v Sloveniji in EU. Vaši podatki ostanejo varni, dostop pa v vaših rokah.</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/main&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;footer id="contact"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div&gt;Za več informacij pišite na &lt;a href="mailto:info@intu.io" style="color: #2942ff;"&gt;info@intu.io&lt;/a&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div style="margin-top:0.5rem;"&gt;&amp;copy; 2025 INTU Lock. Vse pravice pridržane.&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/footer&gt;</p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+  <header>
+    <div class="logo">INTU Lock</div>
+    <nav>
+      <a href="#about">O nas</a>
+      <a href="#features">Funkcije</a>
+      <a href="#contact">Kontakt</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="about">
+      <h1>Seamless Access. European Security.<br>INTU Lock</h1>
+      <p>
+        Pametna ključavnica in platforma za popolnoma intuitiven, varen ter brezskrben digitalni dostop.
+        Razvito v Evropi, z upoštevanjem najstrožjih standardov zasebnosti. Pripravite se na prihodnost brez fizičnih ključev!
+      </p>
+      <a class="cta-btn" href="#contact">Pišite nam</a>
+    </section>
+    <section class="features" id="features">
+      <div class="feature">
+        <div class="feature-icon">🔒</div>
+        <div class="feature-title">Vrhunska varnost</div>
+        <div class="feature-desc">
+          Zgrajeno na evropskih standardih zasebnosti in digitalne identitete (EUDI). Dostop z mobilno denarnico, kartico ali aplikacijo – brez kompromisov.
+        </div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">📱</div>
+        <div class="feature-title">Brezhibna uporabniška izkušnja</div>
+        <div class="feature-desc">
+          Odklepajte s telefonom, NFC kartico ali “cloud” dostopom – za dom, pisarno ali skupne prostore. INTU Lock deluje vedno in povsod.
+        </div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">⚡️</div>
+        <div class="feature-title">Preprosta montaža</div>
+        <div class="feature-desc">
+          Hitra vgradnja brez spreminjanja obstoječih vrat ali ključavnic. Prva rešitev, prilagojena evropskim objektom.
+        </div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🛡️</div>
+        <div class="feature-title">Evropska tehnologija</div>
+        <div class="feature-desc">
+          Razvito, testirano in podprto v Sloveniji in EU. Vaši podatki ostanejo varni, dostop pa v vaših rokah.
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div>Za več informacij pišite na <a href="mailto:info@intu.io" style="color: #2942ff;">info@intu.io</a></div>
+    <div style="margin-top:0.5rem;">&copy; 2025 INTU Lock. Vse pravice pridržane.</div>
+  </footer>
 </body>
 </html>
